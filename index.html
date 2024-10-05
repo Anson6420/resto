@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teashop</title>
+    <!-- Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+<!-- tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- FONTAWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{font-family: "Playwrite DE Grund", cursive;}
+</style>
+</head>
+<body>
+    <div class="w-full md:h-screen h-96 bg-[url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/b0/ac/db/round-the-global-diner.jpg?w=600&h=-1&s=1')] bg-no-repeat bg-cover">
+
+   <div class="w-full md:h-screen h-96" style="background-color: rgba(0, 0, 0, 0.374)">
+       <nav class="w-full p-6 bg-red-950 flex justify-center items-center">
+        <ul class="flex text-white flex justify-evenly w-full">
+            <li class="text-x1 hover:text-yellow-300 hover:cursor-pointer">Special</li>
+            <li class="text-x1 hover:text-yellow-300 hover:cursor-pointer">About</li>
+            <li class="text-x1 hover:text-yellow-300 hover:cursor-pointer">Menu</li>
+            <li class="text-x1 hover:text-yellow-300 hover:cursor-pointer">Chef</li>
+            <li class="text-x1 hover:text-yellow-300 hover:cursor-pointer">Contact</li>
+        </ul>
+       </nav>
+       <div class="flex justify-center items-center w-full flex-col md:pt-64 pt-20 ">
+        <h1 class="text-white md:text-9xl text-6xl ">RESTO</h1>
+        <p class="text-white text-xl mt-4 p-4 text-center">Where every meal is a masterpiece and every visit feels like hime</p>
+       </div>
+   </div>
+   </div>
+   <!-- specials -->
+    <div class="w-full flex justify-center items-center flex-col">
+        <h1 class="text-4xl mt-20">OUR SPECIALS</h1>
+        <div class="w-40 h-1 bg-red-950 mb-4"></div>
+        <div class=" md:mt-20 md:px-40 md:grid grid-cols-3 w-full">
+            <div class="p-8">
+                <h3 class="text-3xl text-center mb-2">Tacos</h3>
+                <img src="./images/img1.jpeg" alt="no image" class="w-full h-56">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempora nihil impedit, iusto adipisci at! Cum, laborum. Unde totam voluptas, eligendi officiis suscipit dolorum commodi quasi quae ratione, quibusdam id?</p>
+            </div>
+            <div  class="p-8">
+                <h3 class="text-3xl text-center mb-2">Dinner</h3>
+                <img src="./images/img2.jpg" alt="no image" class="w-full max-h-56">
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae fugit dolor inventore illo facere explicabo corrupti tenetur temporibus minima beatae eveniet tempora, doloribus, deleniti aut, sequi debitis vel? At.</p>
+            </div>
+            <div  class="p-8">
+                <h3 class="text-3xl text-center mb-2">Cursine</h3>
+                <img src="./images/img3.webp" alt="no image" class="w-full max-h-56">
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae fugit dolor inventore illo facere explicabo corrupti tenetur temporibus minima beatae eveniet tempora, doloribus, deleniti aut, sequi debitis vel? At.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Our Story -->
+     <div class="w-full bg-slate-300 my-20 md:grid grid-cols-2">
+        <div><img src="https://pixahive.com/wp-content/uploads/2020/08/a-windowside-in-a-restaurant-10617-pixahive.jpg" alt=""></div>
+        <div class="md:px-40 px-10">
+           <div class="flex justify-ceenter items-center flex-col my-10">
+                <h1 class="text-4xl">OUR STORY</h1>
+                <div class="w-40 h-1 bg-red-500"></div>
+           </div>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quos? Cupiditate ut dolore in praesentium voluptatum eius quae maiores harum asperiores ducimus sapiente ipsa, deleniti cum numquam. Quod, id quibusdam?</p>
+            <p class="mt-10 text-justify pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eligendi asperiores labore mollitia delectus possimus laudantium molestias nihil ipsam vel ea dolorem, repellendus numquam necessitatibus minima debitis aliquid consequuntur. Laudantium? t. Dolorum eligendi asperiores labore mollitia delectus possimus laudantium molestias nihil ipsam vel ea dolorem, repel</p>
+        </div>
+     </div>
+     <!-- Menu -->
+     <div class="w-full">
+        <div class="flex justify-center items-center flex-col my-10 ">
+            <h1 class="text-4xl">MENU</h1>
+            <div class="w-28 h-1 bg-red-500"></div>
+        </div>
+        <div class="md:grid grid-cols-2 md:px-40 px-20">
+            <div>
+                <div class="flex justify-center items-center flex-col md:my-10 my-20 md:p-20">
+                    <h1 class="text-4xl text-center">BREAKFAST & STARTERS</h1>
+                    <div class="w-56 h-1 bg-red-500"></div>
+                    <div class="mt-5">
+                        <div class="flex justify-between text-2xl">
+                            <h1>Tortellini Skewers</h1>
+                            <span>$9</span>
+                        </div>
+                        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id numquam laboriosam voluptatum commodi eaque quis rerum praesentium, veniam voluptas itaque asperiores nostrum reiciendis soluta nulla esse aliquam exercitationem. Exercitationem, praesentium.
+                        </p>
+                        <div class="mt-5">
+                            <div class="flex justify-between text-2xl">
+                                <h1>Tortellini Skewers</h1>
+                                <span>$9</span>
+                            </div>
+                            <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id numquam laboriosam voluptatum commodi eaque quis rerum praesentium, veniam voluptas itaque asperiores nostrum reiciendis soluta nulla esse aliquam exercitationem. Exercitationem, praesentium.
+                            </p>
+                        </div>
+                        <div class="mt-5">
+                            <div class="flex justify-between text-2xl">
+                                <h1>Tortellini Skewers</h1>
+                                <span>$9</span>
+                            </div>
+                            <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id numquam laboriosam voluptatum commodi eaque quis rerum praesentium, veniam voluptas itaque asperiores nostrum reiciendis soluta nulla esse aliquam exercitationem. Exercitationem, praesentium.
+                            </p>
+                        </div>    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="flex justify-center items-center flex-col md:my-10 my-20 md:p-20 ">
+                <h1 class="text-4xl text-center">DINNER </h1>
+                <div class="w-56 h-1 bg-red-500"></div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h1>Tortellini Skewers</h1>
+                        <span>$9</span>
+                    </div>
+                    <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id numquam laboriosam voluptatum commodi eaque quis rerum praesentium, veniam voluptas itaque asperiores nostrum reiciendis soluta nulla esse aliquam exercitationem. Exercitationem, praesentium.
+                    </p>
+                    <div class="mt-5">
+                        <div class="flex justify-between text-2xl">
+                            <h1>Tortellini Skewers</h1>
+                            <span>$9</span>
+                        </div>
+                        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id numquam laboriosam voluptatum commodi eaque quis rerum praesentium, veniam voluptas itaque asperiores nostrum reiciendis soluta nulla esse aliquam exercitationem. Exercitationem, praesentium.
+                        </p>
+                    </div>
+                    <div class="mt-5">
+                        <div class="flex justify-between text-2xl">
+                            <h1>Tortellini Skewers</h1>
+                            <span>$9</span>
+                        </div>
+                        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id numquam laboriosam voluptatum commodi eaque quis rerum praesentium, veniam voluptas itaque asperiores nostrum reiciendis soluta nulla esse aliquam exercitationem. Exercitationem, praesentium.
+                        </p>
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+     </div>
+     <!-- photos -->
+      <section>
+        <div class="grid-rows-1">
+            <div class="md:grid grid-cols-4">
+                <div ><img src="https://i.pinimg.com/originals/f6/d4/31/f6d431285ad2e9cfd8fa5b9f04a0ca96.jpg" alt=""></div>
+                <div><img src="https://thecarringtonhotel.com.au/wp-content/uploads/2021/05/spagetti.jpg" alt=""></div>
+                <div><img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/French-Market-Soup_EXPS112988_THCB2302822B02_08_9b_RMS.jpg" alt=""></div>
+                <div><img src="https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2023/11/Staff%20Interview%20(Back%20Page)-Gettyimages-3.renditionimage.900.900.jpg" alt=""></div>
+            </div>
+        </div>
+      </section>
+      <!-- Details -->
+     <div class="bg-slate-500 w-full">
+           <div class="md:grid grid-cols-3 text-center ">
+            <div class="md:px-40 px-10 ">
+                <div class="flex justify-center items-center flex-col my-10 ">
+               <h1 class="text-3xl text-white">RESERVATIONS</h1>
+               <div class="w-28 h-1 bg-red-500 my-3"></div>
+           </div>
+           <div class="text-center items-center text-white">
+               <p>Please call</p>
+               <span>(887)-356-242</span>
+           </div>
+       </div>
+            <div class="md:px-40 px-10 ">
+                 <div class="flex justify-center items-center flex-col my-10 ">
+                <h1 class="text-3xl text-white">ADDRESS</h1>
+                <div class="w-28 h-1 bg-red-500 my-3"></div>
+            </div>
+            <div class="text-center items-center text-white">
+                <p>4321 California St</p>
+                <span>San francisco,CA 12345</span>
+            </div>
+        </div>
+            <div class="md:px-20 px-10"> 
+                <div class="flex justify-center items-center flex-col my-10 ">
+                <h1 class="text-3xl text-white">OPENING HOURS</h1>
+                <div class="w-28 h-1 bg-red-500 my-3"></div>
+            </div>
+            <div class="text-center items-center text-white">
+                <p>Mon-Thurs:10:00AM-11:00PM</p>
+                <span>Fri-Sun:11:00AM-02:00AM</span>
+            </div>
+        </div>
+           </div>
+<!--  -->
+           <div class="pt-5">
+            <div class="md:px-40 px-10 md:text-center">
+                <div class="flex justify-center md:text-center items-center flex-col my-10 ">
+               <h1 class="text-2xl text-white">SEND US A MESSAGE</h1>
+               <div class="w-28 h-1 bg-red-500 mt-5"></div>
+           </div>
+        </div>
+     </div>
+     <!--  -->
+     <div class="flex justify-center items-center">
+        <div class=" p-6 rounded-lg w-full max-w-lg">
+            <div class="space-y-4">
+                <div class="flex space-x-4">
+                    <div class="w-1/2">
+                        
+                        <input type="text" id="name" name="name" class="w-full p-2 bg-white text-gray-200 rounded border border-gray-500" placeholder="Name">
+                    </div>
+                    <div class="w-1/2">
+                        
+                        <input type="email" id="email" name="email" class="w-full p-2 bg-white text-gray-200 rounded border border-gray-500" placeholder="Email">
+                    </div>
+                </div>
+                <div>
+                    
+                    <textarea id="message" name="message" rows="4" class="w-full p-2 bg-white text-gray-200 rounded border border-gray-500" placeholder="Message"></textarea>
+                </div>
+                <div class="flex justify-center">
+                    <button type="submit" class="bg-slate-500 text-gray-200 px-6 py-2 border border-white-500 rounded hover:bg-gray-700">SEND MESSAGE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- footer -->
+   
+   <footer class="bg-gray-900 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <div class="text-center text-sm">
+            © Copyright. All rights reserved | Designed by ANSON NELSON
+        </div>
+        <div class="flex space-x-4">
+            <a href="#" class="text-white hover:text-gray-400">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-white hover:text-gray-400">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-white hover:text-gray-400">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div>
+    </footer>
+     </div>
+</body>
+</html>
